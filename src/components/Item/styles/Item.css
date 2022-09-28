@@ -1,0 +1,44 @@
+.productos_container{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.card {
+    width: 21vw;
+    height: auto;
+    border-radius: 5px;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.card-img{
+    width: 100%;
+    margin-bottom: 5px;
+        aspect-ratio: 1 / 1;
+}
+
+.card:hover{
+    border: 2.5px solid #252628;
+    transition: .15s;
+}
+
+.card-title {
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card-sub{
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+}
+.precio {
+    margin: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
